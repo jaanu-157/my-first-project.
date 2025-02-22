@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        button{
+          background-color:green;
+          color:white;
+          border:none;
+          padding:10px;
+          width:45%;
+          border-radius: 10px;
+          font-size:1.3rem;
+        }
+  
+        @media (max-width:436px){
+        .container{
+            background-color: white;
+            width: 30% ;
+            margin: auto;
+            padding:1% 2%;
+            border-radius:20px;
+                }}
+                .form-field input,.form-field selet{
+                  width:90%;
+                  padding:10px;
+                }
+    </style>
+
+</head>
+<h1>
+  Registration form!
+</h1>
+<body>
+  <form class="container" action="./Login.html">
+    <h1 class ="title">register</h1>
+  <p class="form-field">
+  <input type="text"
+  placeholder="Enter your name" required/>
+  </p>
+  <p class="form-field">
+    <input type="text"
+    placeholder="Enter your email"  required/>
+  </p>
+  <p class="form-field">
+    <input type="number"
+    placeholder="Enter your number" required/>
+  </p>
+    <p class="form-field">
+      <input type="password"
+      placeholder="Enter your password" required/>
+    </p>
+    <p class="form-radio">
+      <input type="radio" name="gender"/>male
+      <input type="radio" name="gender"/>female
+    </p>
+    <p class="form-field">
+      <input type="date"
+    </p>
+    <p class="form-field">
+<select required>
+<option value="">select your
+state</option>
+<option value="">AP</option>
+<option value="">TS</option>
+<option value="">DL</opti0on>
+</p>
+<p class="form-field">
+  <input type = "file">
+</p>
+<button>
+  submit
+</button> 
+</form>
+</body>
+</html>
